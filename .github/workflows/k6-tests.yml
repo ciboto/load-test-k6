@@ -29,7 +29,7 @@ jobs:
           echo "deb [signed-by=/usr/share/keyrings/k6-archive-keyring.gpg] https://dl.k6.io/deb stable main" | sudo tee /etc/apt/sources.list.d/k6.list
           sudo apt update
           sudo apt install -y k6
-          
+
       - name: Criar pasta de resultados
         run: mkdir -p results
 
@@ -42,7 +42,7 @@ jobs:
               ;;
             stress)
               echo "Rodando login-stress-dummyjson.js"
-              k6 run scripts/login-stres-dummyjson.js
+              k6 run scripts/login-stress-dummyjson.js
               ;;
             getpost)
               echo "Rodando get-post-load.js"
