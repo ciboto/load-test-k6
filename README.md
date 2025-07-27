@@ -1,4 +1,4 @@
-# Portfolio de Testes K6 - QA
+# Testes de Performance com K6
 
 Este repositório contém scripts de teste de performance usando [K6](https://k6.io/), focados em testes de login e requisições GET/POST, integrados com relatórios em HTML.
 
