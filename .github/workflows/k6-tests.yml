@@ -40,7 +40,7 @@ jobs:
               echo "Rodando login-peak-dummyjson.js"
               k6 run scripts/login-peak-dummyjson.js
               ;;
-            stress)
+            login-stress)
               echo "Rodando login-stress-dummyjson.js"
               k6 run scripts/login-stress-dummyjson.js
               ;;
