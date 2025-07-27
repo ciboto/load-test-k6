@@ -45,8 +45,8 @@ jobs:
               k6 run scripts/login-stress-dummyjson.js
               ;;
             getpost)
-              echo "Rodando get-post-load.js"
-              k6 run scripts/get-post-load.js
+              echo "Rodando get-posts-load.js"
+              k6 run scripts/get-posts-load.js
               ;;
             *)
               echo "Tipo de teste inválido!"
