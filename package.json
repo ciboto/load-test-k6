@@ -1,0 +1,22 @@
+{
+  "name": "load-test-k6",
+  "version": "1.0.0",
+  "main": "index.js",
+  "description": "Portfólio de testes de performance com k6",
+  "scripts": {
+    "test:get-posts": "k6 run scripts/get-posts-load.js",
+    "test:reqres-login": "k6 run scripts/login-stress-reqres.js",
+    "test:dummy-login": "k6 run scripts/login-peak-dummyjson.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ciboto/load-test-k6.git"
+  },
+  "keywords": [],
+  "author": "Samanta Ciboto",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ciboto/load-test-k6/issues"
+  },
+  "homepage": "https://github.com/ciboto/load-test-k6#readme"
+}
