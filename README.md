@@ -1,6 +1,6 @@
-# Testes de Performance com K6
+# Projeto de Testes de Carga com k6 – Performance para APIs
 ![License](https://img.shields.io/badge/License-CC_BY--NC--ND_4.0-lightgrey?style=for-the-badge)
-![K6 Load](https://img.shields.io/badge/K6_Load-Tested-grey?logo=k6&logoColor=white&style=for-the-badge)
+![K6 Load](https://img.shields.io/badge/K6_Load-Tested-green?logo=k6&logoColor=grey&style=for-the-badge)
 
 Este repositório contém scripts de teste de performance usando [K6](https://k6.io/), focados em testes de login e requisições GET/POST, integrados com relatórios em HTML.
 > Para os testes os endpoints são apenas para testes, sem conter dados reais, api usadas:
